@@ -1,0 +1,56 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.caption{
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.date-item{
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 10% calc( 80% - 28px) 10%;
+    grid-auto-rows: 75px;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+
+.timeslot{
+    border-top: 2px dotted grey;
+    border-bottom: 2px dotted grey;
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+}
+
+.content{
+
+}   
+
+.save{
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
